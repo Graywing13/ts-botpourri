@@ -36,6 +36,12 @@ Node
 - The project's entry point is specified in `package.json`'s `main`.
   - It gets put in the root of the `dist` package (need to re-run `yarn tsc -w` to see this change)
 
+### Project & Version Control
+
+Git
+
+- It's easier to `git co otherBranch .` than to merge or reset HEAD~
+
 ## Resources
 
 - Node project with typescript: https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
