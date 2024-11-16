@@ -11,7 +11,7 @@ It's been a while since I revisited botpourri. There are some things I want to d
 yarn tsc -w
 ```
 
-- Compile typescript with on-save watch
+-   Compile typescript with on-save watch
 
 ---
 
@@ -19,7 +19,7 @@ yarn tsc -w
 node dist/app.js
 ```
 
-- Run app
+-   Run app
 
 ---
 
@@ -29,32 +29,32 @@ node dist/app.js
 
 Terminology
 
-- **Axios** (library) is for making requests
-- **Express** (library) is for receiving requests
-- **HTTP** (module) lets you use http server
-- **Node** (runtime environment). Uses CommonJS.
+-   **Axios** (library) is for making requests
+-   **Express** (library) is for receiving requests
+-   **HTTP** (module) lets you use http server
+-   **Node** (runtime environment). Uses CommonJS.
 
 Express
 
-- `.send()` automatically sets the content type for you. Is also better for browser caching due to ETag (resource id).
+-   `.send()` automatically sets the content type for you. Is also better for browser caching due to ETag (resource id).
 
 Node
 
-- The project's entry point is specified in `package.json`'s `main`.
-    - It gets put in the root of the `dist` package (need to re-run `yarn tsc -w` to see this change)
+-   The project's entry point is specified in `package.json`'s `main`.
+    -   It gets put in the root of the `dist` package (need to re-run `yarn tsc -w` to see this change)
 
 ### Project & Version Control
 
 Git
 
-- It's easier to `git co otherBranch .` than to merge or reset HEAD~
+-   It's easier to `git co otherBranch .` than to merge or reset HEAD~
 
 ## Resources
 
-- Node project with
-  typescript: https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
-- Discord bot: https://dev.to/fellipeutaka/creating-your-first-discord-bot-using-typescript-1eh6
+-   Node project with
+    typescript: https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
+-   Discord bot: https://dev.to/fellipeutaka/creating-your-first-discord-bot-using-typescript-1eh6
 
 ## TODO list
 
-- [ ] Set up jest https://jestjs.io/docs/getting-started 
+-   [ ] Set up jest https://jestjs.io/docs/getting-started
