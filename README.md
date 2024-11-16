@@ -1,8 +1,11 @@
 # TS Botpourri
 
-It's been a while since I revisited botpourri. There are some things I want to do, so I am bringing botpourri back :snowman2:
+It's been a while since I revisited botpourri. There are some things I want to do, so I am bringing botpourri back
+:snowman2:
 
 ## Commands
+
+---
 
 ```bash
 yarn tsc -w
@@ -10,11 +13,15 @@ yarn tsc -w
 
 - Compile typescript with on-save watch
 
+---
+
 ```bash
 node dist/app.js
 ```
 
 - Run app
+
+---
 
 ## Learnings
 
@@ -34,7 +41,7 @@ Express
 Node
 
 - The project's entry point is specified in `package.json`'s `main`.
-  - It gets put in the root of the `dist` package (need to re-run `yarn tsc -w` to see this change)
+    - It gets put in the root of the `dist` package (need to re-run `yarn tsc -w` to see this change)
 
 ### Project & Version Control
 
@@ -44,4 +51,10 @@ Git
 
 ## Resources
 
-- Node project with typescript: https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
+- Node project with
+  typescript: https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
+- Discord bot: https://dev.to/fellipeutaka/creating-your-first-discord-bot-using-typescript-1eh6
+
+## TODO list
+
+- [ ] Set up jest https://jestjs.io/docs/getting-started 

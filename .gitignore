@@ -1,2 +1,9 @@
+# standard
 node_modules
 dist
+
+# ide
+.idea
+
+# app
+.env

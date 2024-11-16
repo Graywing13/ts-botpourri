@@ -1,13 +1,15 @@
-import express from "express";
+import express from 'express'
+import { log } from './util/log'
 
-const app = express();
-const PORT = 3000;
-
-app.get("/", (req, res) => {
-  res.statusCode = 200;
-  res.send("Hello, world!");
-});
+const app = express()
+const PORT = 3000
 
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}/`);
-});
+  log.info(`Server running at http://localhost:${PORT}/`)
+})
+
+app.get('/', (req, res) => {
+  log.trace(`Received request ${JSON.stringify(req.body)}`)
+  res.statusCode = 200
+  res.send('Hello there!')
+})
